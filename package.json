@@ -1,0 +1,9 @@
+{
+  "name": "simple-node-server-assignment",
+  "version": "1.0.0",
+  "description": "A beginner-friendly Node.js web server using the http module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
