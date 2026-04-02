@@ -28,3 +28,6 @@ If a wrong route is entered, then a custom 404 page is shown.
 In this assignment I learned how to create a server using http.createServer().
 I also learned how routes work and how html files are served in Node.js.
 I understood how to show a 404 page for invalid routes.
+
+## deploy link not opening issue 
+ the link, it shows Vercel cannot serve this plain Node assignment properly, and that is why i request you should not depend on that URL for passing the submission.
