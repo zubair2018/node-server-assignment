@@ -1,15 +1,30 @@
-# Simple Node.js Web Server
+# Node.js Web Server Assignment
 
-This is a beginner-friendly Node.js assignment project.
+## About project
+This is a simple web server project made using Node.js.
+I used the http module to create the server and fs module to read html files.
 
-## Files included
-- `server.js` -> main server file
-- `pages/` -> HTML pages for different routes
-- `public/style.css` -> CSS styling file
-- `package.json` -> project information and start script
+## Routes
+The project has these routes:
 
-## How to run the project
+- /home
+- /about
+- /contact
+- /services
+
+If a wrong route is entered, then a custom 404 page is shown.
+
+## How to run
 1. Open terminal in the project folder
-2. Run this command:
-   ```bash
+2. Run command:
    npm start
+3. Open browser and test:
+   http://localhost:3000/home
+   http://localhost:3000/about
+   http://localhost:3000/contact
+   http://localhost:3000/services
+
+## What I learned
+In this assignment I learned how to create a server using http.createServer().
+I also learned how routes work and how html files are served in Node.js.
+I understood how to show a 404 page for invalid routes.
